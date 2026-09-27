@@ -20,6 +20,7 @@
         "prompts:pull": "node scripts/prompts-pull.mjs",
         "prompts:push": "node scripts/prompts-push.mjs",
         "agents:push": "node scripts/agents-push.mjs",
+        "emit:client-migrations": "node scripts/emit-client-migrations.mjs",
         "pull": "npm run flows:pull && npm run prompts:pull",
         "push": "npm run flows:push && npm run prompts:push"
     },
