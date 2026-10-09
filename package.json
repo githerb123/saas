@@ -21,6 +21,7 @@
         "prompts:push": "node scripts/prompts-push.mjs",
         "agents:push": "node scripts/agents-push.mjs",
         "emit:client-migrations": "node scripts/emit-client-migrations.mjs",
+        "reconcile:client-schema": "node scripts/reconcile-client-schema.mjs",
         "pull": "npm run flows:pull && npm run prompts:pull",
         "push": "npm run flows:push && npm run prompts:push"
     },
